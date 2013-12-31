@@ -1154,3 +1154,28 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
 @media all and (max-width: 480px) {
 .slogan p { display:none; }
 }
+
+.button {
+    background: #000000;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 40px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: solid black;
+    border-width: 3px;
+}
+
+.button:hover {
+    background: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border: solid black;
+    border-width: 10px;
+    border-radius: 2%
+}
+
+.page-contact #block-system-main { float: right;}
+#block-block-23 {float: left;}

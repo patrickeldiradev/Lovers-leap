@@ -162,6 +162,13 @@ function sunrise_form_alter(&$form, &$form_state, $form_id) {
 
 	 	$form['search_block_form']['#attributes'] = array('onblur' => "if (this.value == '') {this.value = '{$form_default}';}", 'onfocus' => "if (this.value == '{$form_default}') {this.value = '';}" );
 	}
+    if ($form_id == 'contact_site_form'){
+        $form['actions'] = array('#type' => 'actions');
+        $form['actions']['submit'] = array(
+            '#type' => 'submit',
+            '#value' => t('Place Your Order'),
+        );
+    }
 }
 
 
