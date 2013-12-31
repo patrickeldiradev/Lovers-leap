@@ -136,7 +136,7 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 
 #header-banner-wrapper .slogan { background: url(../images/local/bg_nav.png) top left repeat black; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; color: #fff; padding: 30px; margin: 0 auto; text-align: center; margin: 11% auto 11%; }
 
-#header-banner-wrapper .slogan h2 { font-size: 60px; font-weight: 900; letter-spacing: 10px; margin: 0px 0px 25px; color:#fff; }
+#header-banner-wrapper .slogan h2 { font-size: 60px; font-weight: 900; letter-spacing: 5px; margin: 0px 0px 25px; color:#fff; }
 
 #header-banner-wrapper .slogan p { font-size: 34px; font-weight: 100; }
 
@@ -1179,3 +1179,8 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
 
 .page-contact #block-system-main { float: right;}
 #block-block-23 {float: left;}
+
+
+
+
+
