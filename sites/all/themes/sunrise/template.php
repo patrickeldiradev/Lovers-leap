@@ -181,7 +181,7 @@ if (theme_get_setting('google_map_js', 'sunrise')) {
 	array('type' => 'inline', 'scope' => 'header')
 	);
     
-	drupal_add_js('https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false',array('type' => 'external', 'scope' => 'header', 'group' => 'JS_THEME'));
+	drupal_add_js('https://maps.googleapis.com/maps/api/js?key=AIzaSyA-WQzSUKH8MiT169b_v_E1zs5xZRAlQyk&callback=initMap.exp&sensor=false',array('type' => 'external', 'scope' => 'header', 'group' => 'JS_THEME'));
 
 	$google_map_latitude=theme_get_setting('google_map_latitude','sunrise');
 	$google_map_longitude=theme_get_setting('google_map_longitude','sunrise');
