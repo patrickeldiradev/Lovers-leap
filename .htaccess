@@ -86,6 +86,9 @@ DirectoryIndex index.php index.html index.htm
   # directories from your webroot or otherwise protect them from being
   # downloaded.
   RewriteRule "/\.|^\.(?!well-known/)" - [F]
+  # Blocking all calls to /freetrader on the site - having issues in the log with this one
+  # crawling the site - June 2018.
+  RewriteRule ^(freetrader/) - [F,L,NC]
 
   # If your site can be accessed both with and without the 'www.' prefix, you
   # can use one of the following settings to redirect users to your preferred
