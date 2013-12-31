@@ -23,7 +23,7 @@ p { margin: 0 0 0; padding: 0; }
 
 a, a:visited { color: #E54D1B; text-decoration: none; }
 
-a:hover { color: #E54D1B; text-decoration: underline; }
+a:hover { color: #FF4D4D; text-decoration: underline; }
 
 a:focus { text-decoration: none; }
 
@@ -141,8 +141,6 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
 
 #header-banner-wrapper .slogan h2 { font-size: 60px; font-weight: 900; letter-spacing: 5px; margin: 0px 0px 25px; color:#fff; }
 
-.page-node-48 #header-banner-wrapper .slogan h2 { font-size: 3.5em; font-weight: 900; letter-spacing: 5px; margin: 0px 0px 25px; color:#fff; }
-
 #header-banner-wrapper .slogan p { font-size: 34px; font-weight: 100; }
 
 @media only screen and (max-width: 767px) {
@@ -158,9 +156,6 @@ div.social ul.social li a.skype, #social2 .social a.skype { background-position:
   h3 { font-size: 23px !important;}
   .col-md-4 { padding-bottom: 2em; }
   #main-content { padding-bottom: 0px !important;}
-    .page-node-48 #header-banner-wrapper .slogan h2 { font-size: 2em; font-weight: 900; letter-spacing: 5px; margin: 0px 0px 25px; color:#fff; }
-    .page-node-48 #header-banner-wrapper .slogan .llf-mobile-email { font-size: .85em; font-weight: 900; letter-spacing: 0px; margin: 0px 0px 25px; color:#fff; }
-
 }
 
 /* navigation */
@@ -1197,16 +1192,6 @@ ul#portfolio-items-one-third li  img { width: 100%; height: auto; padding: 0; ma
 
 .page-contact #block-system-main { float: right;}
 #block-block-23 {float: left;}
-
-.feed-icon {display: none;}
-
-.llf-green {color: #4CAF50}
-
-#block-block-35 h2 a {color: #E54D1B; text-decoration: none;}
-
-/* hide broken contact form */
-form#contact-site-form.contact-form { display: none;}
-
 
 
 
