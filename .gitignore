@@ -6,3 +6,6 @@ sites/*/files
 sites/*/private
 
 .idea
+
+#Ignore all .DS_Store
+.DS_Store
